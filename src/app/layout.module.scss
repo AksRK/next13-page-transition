@@ -1,0 +1,17 @@
+.main {
+  position: relative;
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  top: -30px;
+  padding: 100px 50px;
+  width: 100%;
+  min-height: calc(100vh + 100px);
+  background-color: #F5F5F7;
+  border-radius: 30px;
+  transform-origin: top;
+  transform: translateY(0);
+}

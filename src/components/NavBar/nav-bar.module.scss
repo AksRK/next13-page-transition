@@ -1,0 +1,38 @@
+.navBar {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  padding: 5px;
+  background: #737777;
+  display: flex;
+  gap: 10px;
+
+
+  &__item {
+    all: unset;
+    display: block;
+    font-size: 18px;
+    padding: 10px 18px;
+    z-index: 1;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    white-space: nowrap;
+
+    &:hover {
+      background: #F5F5F7;
+    }
+  }
+
+  &__mark {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background: #F5F5F7;
+  }
+}
